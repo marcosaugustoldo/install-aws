@@ -1,4 +1,4 @@
-**Tutorial: Installing an EC2 Instance with Amazon Linux 2023 and Configuring IAM Role and Security Group**
+# Tutorial: Installing an EC2 Instance with Amazon Linux 2023 and Configuring IAM Role and Security Group
 
 **Index**
 
