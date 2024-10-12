@@ -98,5 +98,6 @@ _Script: [Henrylle Maia](https://github.com/henrylle/bia/blob/main/scripts/user_
 
 This process is thoroughly explained in this video by [Henrylle Maia](https://github.com/henrylle), using n8n as an example:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-gyIdyy3X0Y&t=1296s" frameborder="0" allowfullscreen></iframe>
+[![Como instalar o N8N na sua conta na AWS, PARTINDO DO ZERO.](https://www.youtube.com/watch?v=-gyIdyy3X0Y&t=1296s)](https://www.youtube.com/watch?v=-gyIdyy3X0Y&t=1296s)
+
 
