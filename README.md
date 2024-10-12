@@ -77,6 +77,8 @@ curl -fsSL https://rpm.nodesource.com/setup_21.x | sudo bash -
 sudo yum install -y nodejs
 ```
 
+_Script: [Henrylle Maia](https://github.com/henrylle/bia/blob/main/scripts/user_data_ec2_zona_a.sh)_
+
 11. Click on "Launch" to create the instance.
 
 ## Configuring the EC2 Instance
@@ -91,3 +93,9 @@ sudo yum install -y nodejs
 2. Select the instance created earlier and click on "Connect to instance".
 3. Select "Session Manager" and click on "Connect".
 4. Verify that the connection was established successfully.
+
+## Tutorial
+
+This process is thoroughly explained in this video by [Henrylle Maia](https://github.com/henrylle), using n8n as an example:
+
+![https://www.youtube.com/watch?v=-gyIdyy3X0Y&t=1296s](https://www.youtube.com/watch?v=-gyIdyy3X0Y&t=1296s)
