@@ -9,11 +9,11 @@
 5. [Configuring the EC2 Instance](#configuring-the-ec2-instance)
 6. [Verifying the Connection](#verifying-the-connection)
 
-**1. Introduction**
+## Introduction
 
 In this tutorial, we will create an EC2 instance with Amazon Linux 2023, configure an IAM role to allow access to SSM (Systems Manager), and create a security group to enable ports 8080 and 443.
 
-**2. Creating an IAM Role for SSM**
+## Creating an IAM Role for SSM
 
 1. Access the AWS console and navigate to the IAM service.
 2. Click on "Roles" and select "Create role".
@@ -21,7 +21,7 @@ In this tutorial, we will create an EC2 instance with Amazon Linux 2023, configu
 4. In "Review", select "AmazonSSMManagedInstanceCore" as the policy and click on "Create role".
 5. Note the name of the role created, as it will be needed later.
 
-**3. Creating a Security Group**
+## Creating a Security Group
 
 1. Access the AWS console and navigate to the EC2 service.
 2. Click on "Security Groups" and select "Create security group".
@@ -29,7 +29,7 @@ In this tutorial, we will create an EC2 instance with Amazon Linux 2023, configu
 4. Add another rule to allow traffic on port 443 and click on "Add rule".
 5. Select "Create security group" and note the ID of the security group created.
 
-**4. Creating an EC2 Instance**
+## Creating an EC2 Instance
 
 1. Access the AWS console and navigate to the EC2 service.
 2. Click on "Launch Instance" and select "Amazon Linux 2023" as the instance image.
@@ -41,6 +41,7 @@ In this tutorial, we will create an EC2 instance with Amazon Linux 2023, configu
 8. Click on "Next: Review and Launch" and select "Launch".
 9. In "Configure Instance Details", click on "Advanced details" and select "As text".
 10. Paste the following script in the text field:
+
 ```bash
 #!/bin/bash
 
@@ -73,22 +74,23 @@ sudo echo "/swapfile swap swap defaults 0 0" >> /etc/fstab
 curl -fsSL https://rpm.nodesource.com/setup_21.x | sudo bash -
 sudo yum install -y nodejs
 ```
+
 11. Click on "Launch" to create the instance.
 
-**5. Configuring the EC2 Instance**
+## Configuring the EC2 Instance
 
 1. Access the AWS console and navigate to the EC2 service.
 2. Select the instance created earlier and click on "Actions" and select "Instance settings".
 3. In "Instance settings", verify that the IAM role and security group are configured correctly.
 
-**6. Verifying the Connection**
+## Verifying the Connection
 
 1. Access the AWS console and navigate to the EC2 service.
 2. Select the instance created earlier and click on "Connect to instance".
 3. Select "Session Manager" and click on "Connect".
 4. Verify that the connection was established successfully.
 
-**Hotkeys**
+## Hotkeys
 
 * W: Go back to the beginning of the tutorial
 * A: Verify the configuration of the EC2 instance
