@@ -89,10 +89,3 @@ sudo yum install -y nodejs
 2. Select the instance created earlier and click on "Connect to instance".
 3. Select "Session Manager" and click on "Connect".
 4. Verify that the connection was established successfully.
-
-## Hotkeys
-
-* W: Go back to the beginning of the tutorial
-* A: Verify the configuration of the EC2 instance
-* S: Verify the configuration of the security group
-* D: Verify the connection to the EC2 instance
