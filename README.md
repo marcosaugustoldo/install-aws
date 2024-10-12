@@ -1,3 +1,5 @@
+![https://media2.spaceref.com/wp-content/uploads/2023/09/13112723/AWS.jpg](https://media2.spaceref.com/wp-content/uploads/2023/09/13112723/AWS.jpg)
+
 # Tutorial: Installing an EC2 Instance with Amazon Linux 2023 and Configuring IAM Role and Security Group
 
 **Index**
